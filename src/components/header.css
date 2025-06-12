@@ -1,0 +1,15 @@
+/* header {
+  display: flex;
+  justify-content: center;
+}
+div {
+  flex-direction: column;
+  display: flex;
+  gap: 4px;
+  span {
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    border: 1px solid black;
+  }
+} */
