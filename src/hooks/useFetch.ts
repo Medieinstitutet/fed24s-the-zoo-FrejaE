@@ -1,20 +1,19 @@
 import { useEffect, useState } from "react";
 
-export const useAnimals = <T>(url: string): [boolean, T | undefined] => {
-  const [loading, setLoading] = useState(false);
+export const useFetch = <T>(url: string): [boolean, T | undefined] => {
+  const [loading, setLoading] = useState<boolean>(false);
   const [data, setData] = useState<T>();
 
   useEffect(() => {
     const getData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(
-          "https://animals.azurewebsites.net/api/animals"
-        );
+
+        const response = await fetch(url);
         const data: T = await response.json();
         setData(data);
       } catch (error) {
-        console.error(error);
+        console.error("Failed to fetch", error);
       } finally {
         setLoading(false);
       }

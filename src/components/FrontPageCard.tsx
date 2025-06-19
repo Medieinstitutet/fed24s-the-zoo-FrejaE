@@ -4,9 +4,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 
-//TODO koppla korten till rätt pages
-//felkodat på image
-// image = p.image. skapa props för att skicka med text och image
 type FrontPageProps = {
   image: string;
   heading: string;

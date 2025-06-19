@@ -1,12 +1,15 @@
 import { createContext, type Dispatch } from "react";
-import type { IAnimal } from "../models/IAnimal";
+import type { IAnimalExt } from "../models/IAnimal";
+import type { Actions } from "../reducers/AnimalReducer";
 
 interface IAnimalContext {
-    animals: IAnimal[]:
-    dispatch: Dispatch<Action>
+  animals: IAnimalExt[];
+  dispatch: Dispatch<Actions>;
+  loading: boolean;
 }
 
 export const AnimalContext = createContext<IAnimalContext>({
-    animals: [],
-    dispatch: ()=>{},
-})
+  animals: [],
+  dispatch: () => {},
+  loading: false,
+});
