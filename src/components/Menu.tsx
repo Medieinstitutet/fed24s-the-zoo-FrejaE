@@ -61,8 +61,10 @@ export default function Menu() {
     >
       <Paper>
         <MenuList>
-          {animals.map((a) => (
-            <MenuItem onClick={() => goToAnimal(a.id)}>{a.name}</MenuItem>
+          {animals.map((a, i) => (
+            <MenuItem key={i} onClick={() => goToAnimal(a.id)}>
+              {a.name}
+            </MenuItem>
           ))}
         </MenuList>
       </Paper>
