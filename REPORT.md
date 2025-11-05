@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\hooks\useFetch.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\reducers\AnimalReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'ALL_ANIMALS' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav både för G och VG. Projektet använder en router struktur med child-routes och error-element, hanterar bildladdningsfel och implementerar en matningslogik med reducer och context för att hantera applikationens tillstånd. Data hämtas effektivt med en custom hook, och komponentkommunikation sker främst via context istället för props. Djurets matstatus visas korrekt och hanteras återställning enligt kraven. Dessutom använder projektet subtila animeringar på knappar och har använt Material UI för styling.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs. För framtida förbättringar kan kommentarer och mer dokumentation i koden öka förståelighet och underhållbarhet. Överväg också att hantera eventuella fel som uppstår vid datahämtning på ett mer användarvänligt sätt än att bara logga dem till konsolen.
+Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
