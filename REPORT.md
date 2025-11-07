@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-FrejaE
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,13 +65,12 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\hooks\useFetch.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\reducers\AnimalReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'ALL_ANIMALS' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller samtliga krav för både G och VG. Koden är välstrukturerad med korrekt användning av React-router, Context API, reducers, och hanterar bildfel korrekt.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
 
 💡 **Förbättringsförslag:**  
-Koden är övergripande välskriven. Förbättringar kan vara att förfina visuell design och animationsdetaljer för bättre användarengagemang.
+Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
