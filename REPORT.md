@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\hooks\useFetch.ts - no-console - Unexpected console statement.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\reducers\AnimalReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'ALL_ANIMALS' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad, funktionell och följer best practices för frontend-utveckling. Användningen av context och reducers, samt subtila animeringar, är särskilt väl genomförda.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla krav för betyget G och flera för VG. Koden är välstrukturerad med korrekt implementerad funktionalitet, inklusive användning av en router, hantering av trasiga bildlänkar, och grundläggande felhantering. Dock finns förbättringsområden som kan adresseras för att nå VG, såsom optimering av komponentrendering och minskning av kodupprepningar.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra projektet kan upprepning i koden minskas genom att abstrahera gemensamma funktioner eller komponenter. Säkerhetsaspekterna kan förstärkas, särskilt kring validering av användarinmatning. Layouten kan också förbättras för att ge en mer konsekvent och användarvänlig upplevelse, till exempel genom att finjustera CSS-tekniker och designprinciper.
+För att nå VG, fokusera på att reducera kodupprepningar genom att extrahera gemensam logik till återanvändbara funktioner eller hooks. Optimera komponenternas rendering med tekniker som `React.memo` för bättre prestanda. Lägg till fler subtila animeringar vid interaktioner för att förbättra användarupplevelsen och uppfylla VG-kraven fullt ut.
