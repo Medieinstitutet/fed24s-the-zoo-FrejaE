@@ -66,11 +66,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\hooks\useFetch.ts - no-console - Unexpected console statement.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-FrejaE\src\reducers\AnimalReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'ALL_ANIMALS' is defined but never used.
+- /app/repos/fed24s-the-zoo-FrejaE/src/hooks/useFetch.ts - no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-FrejaE/src/reducers/AnimalReducer.ts - no-unused-vars - 'FEED' is defined but never used.,no-unused-vars - 'ALL_ANIMALS' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyget G. Projektet använder en router för att visa olika sidor, hanterar trasiga bildlänkar korrekt och tillämpar en annan teknik än ren CSS för styling. Funktionaliteten för att mata djur och spara matningstider är korrekt implementerad. Kodstrukturen är logisk och följer etablerade konventioner för frontend-utveckling. För att uppnå VG saknas användning av context API och reducers, samt subtila animeringar och custom hooks eller tjänster för datainhämtning.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är välstrukturerad, följer etablerade konventioner för frontend-utveckling och implementerar funktionaliteten som beskrivs i uppgiften. Detta inkluderar routing, hantering av djurdata och korrekt hantering av trasiga bildlänkar. Felhantering är på plats och koden är generellt läsbar med tillräckliga kommentarer. För att nå betyget VG krävs ytterligare implementationer såsom context API och reducers för state management, vilka inte är inkluderade i den nuvarande lösningen.
 
 💡 **Förbättringsförslag:**  
-För att förbättra och nå betyget VG, implementera context API för komponentkommunikation och använd reducers för hantering av djurens tillstånd. Lägg till subtila animeringar vid användarinteraktioner för en förbättrad användarupplevelse. Förbättra error handling för att täcka fler scenarier och minska kodupprepningar genom att abstrahera gemensam logik. Använd custom hooks eller tjänster för att hantera datainhämtning effektivt.
+För att nå betyget VG rekommenderas att använda context API för att kommunicera mellan komponenter istället för props, samt att implementera reducers för att hantera djurens state. Det skulle också vara fördelaktigt att inkludera subtila animeringar vid interaktioner och sidladdningar för att förbättra användarupplevelsen. Dessutom, överväg att använda en custom hook eller tjänst för att hämta data, vilket skulle förbättra kodens modularitet och återanvändbarhet.
